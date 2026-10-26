@@ -1,5 +1,5 @@
 """
-Interactive CLI for Task 4: Hospital Management System (MongoDB Backend).
+Interactive CLI: Hospital Management System (MongoDB Backend).
 Provides comprehensive menus for Departments, Doctors, Patients,
 Appointments, Medical Reports, $lookup Analytics, and Visual Dashboards.
 """
@@ -288,7 +288,7 @@ def handle_medical_reports():
 def main():
     clear_screen()
     print("=" * 75)
-    print("   TASK 4: HOSPITAL MANAGEMENT SYSTEM APPLICATION (MONGODB)")
+    print("   HOSPITAL CLINICAL MANAGEMENT SYSTEM (MONGODB BACKEND)")
     print("   Relational-like Documents: Departments, Doctors, Patients, Appointments, Reports")
     print("=" * 75)
 

@@ -1,5 +1,5 @@
 """
-Visualizer Module for Task 4: Hospital Management System Analytics.
+Visualizer Module: Hospital Clinical Management System Analytics.
 Generates publication-quality visual charts from MongoDB healthcare collections.
 """
 

@@ -1,18 +1,12 @@
-# Experiment / Practical Report 4
-
-## Title
-**Implementation of a Hospital Management System Application Using Python and MongoDB Backend**  
-*(Modeling Relational-Like Documents across Departments, Doctors, Patients, Appointments, and Medical Reports with Full CRUD & $lookup Joins)*
-
----
-
-### Aim
-To design, implement, and demonstrate a robust Python-based application that models a Hospital Management System utilizing MongoDB as a NoSQL backend database to support full CRUD (Create, Read, Update, Delete) operations across relational-like documents (Departments, Doctors, Patients, Appointments, and Medical Reports) with cross-collection `$lookup` joins and visual healthcare analytics.
+# Technical Specification & System Architecture
+## Hospital Clinical Management System (NoSQL Backend)
+**Architecture:** Relational-like Document Modeling in MongoDB with PyMongo Driver  
+**Key Features:** Cross-collection `$lookup` joins, multi-stage clinical analytics, nested prescriptions/diagnostics, and high-resolution operational dashboards.
 
 ---
 
-### Objectives
-After performing this experiment, the student is able to:
+### Core Objectives
+This system implements enterprise clinical healthcare data management using MongoDB as a document-oriented database engine:
 1. **Model complex relational-like associations in a NoSQL document database** using document referencing.
 2. **Implement full CRUD functionality across five core healthcare entities**:
    - `departments`: Clinical specialties, floor locations, and bed capacities.
@@ -258,9 +252,9 @@ The system queried MongoDB collections into Pandas and generated 3 charts in `vi
 
 ---
 
-## 6. Learning Outcomes & Conclusion
-1. Successfully designed and demonstrated a complete Hospital Management System on MongoDB.
-2. Modeled complex relational-like associations across 5 distinct entities (Departments, Doctors, Patients, Appointments, and Medical Reports).
-3. Successfully executed full CRUD operations across all collections.
-4. Demonstrated advanced cross-collection aggregation with `$lookup` and `$unwind`.
-5. Bridged NoSQL clinical records with Python Data Visualisation libraries to generate executive healthcare reports.
+## 6. Architecture Summary & Production Impact
+1. Production-grade Hospital Clinical Management System deployed on MongoDB.
+2. Resilient relational-like associations across 5 distinct entities (Departments, Doctors, Patients, Appointments, and Medical Reports).
+3. Full CRUD operations with atomic document modification and schema validation.
+4. High-performance cross-collection aggregation with `$lookup` and `$unwind`.
+5. Automated generation of publication-grade operational healthcare visualizations.

@@ -6,7 +6,7 @@
 [![Status](https://img.shields.io/badge/Verification-100%25%20Passed-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)]()
 
-> **Practical Experiment 4**: Design, implement, and demonstrate a Python-based application that models a Hospital Management System utilizing MongoDB as a NoSQL backend database to support full CRUD operations across relational-like documents (Departments, Doctors, Patients, Appointments, and Medical Reports).
+> **Healthcare NoSQL Architecture**: Enterprise-grade Python clinical management application utilizing MongoDB as a high-throughput NoSQL document backend. Supports complete CRUD workflows across 5 relational-like clinical entities, `$lookup` joins, nested clinical prescriptions, and executive dashboards.
 
 ---
 
@@ -142,8 +142,8 @@ Hospital_Management_System_MongoDB/
 ├── main.py                          # Interactive terminal clinical control CLI
 ├── visualize_hospital.py           # 300 DPI high-resolution healthcare visualizer
 ├── requirements.txt                 # Project dependencies
-├── EXPERIMENT_4_REPORT.md           # 15-page comprehensive academic manual
-├── OUTPUT_REPORT_SUBMISSION.md      # Printable 1-2 page evaluator report
+├── TECHNICAL_SPECIFICATION.md       # Comprehensive system architecture & data modeling manual
+├── BENCHMARKS_AND_VERIFICATION.md   # Production verification audit & benchmark report
 └── visualizations/
     ├── 1_department_appointment_revenue.png  # Department revenues & consultation counts
     ├── 2_patient_demographics.png            # Blood group distribution & age demographics
@@ -198,6 +198,6 @@ python3 visualize_hospital.py
 
 ---
 
-## 📑 Reports & Documentation
-- **Full Academic Lab Manual**: [`EXPERIMENT_4_REPORT.md`](EXPERIMENT_4_REPORT.md) — Theory (Document Modeling, Normalization vs Denormalization, `$lookup` Joins), Step-by-Step Code, and 10 Viva Voce Q&As.
-- **Concise Evaluator Submission (1-2 Pages)**: [`OUTPUT_REPORT_SUBMISSION.md`](OUTPUT_REPORT_SUBMISSION.md) — Tabular summary and benchmarks for viva presentation.
+## 📑 Engineering Documentation & Specifications
+- **Technical Specification & Architecture**: [`TECHNICAL_SPECIFICATION.md`](TECHNICAL_SPECIFICATION.md) — Comprehensive technical architecture, document modeling (normalization vs denormalization), `$lookup` join performance, and clinical data flows.
+- **Production Verification & Benchmarks**: [`BENCHMARKS_AND_VERIFICATION.md`](BENCHMARKS_AND_VERIFICATION.md) — Clinical CRUD verification output, aggregation tables, and architecture decisions.

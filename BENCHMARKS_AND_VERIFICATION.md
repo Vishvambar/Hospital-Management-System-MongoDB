@@ -1,8 +1,8 @@
-# PRACTICAL OUTPUT REPORT (1-2 PAGES)
-### Course: Data Visualisation | Experiment / Task 4
-**Title:** Implementation of a Hospital Management System Application Using Python and MongoDB Backend  
-**Aim:** Model a Hospital Management System on MongoDB to support full CRUD across relational-like documents (Departments, Doctors, Patients, Appointments, Medical Reports) with `$lookup` joins.  
-**Tech Stack:** Python 3.14 | MongoDB 9.0 | `pymongo`, `pandas`, `tabulate`, `seaborn`, `matplotlib`
+# Production Verification & Healthcare System Audit
+### Hospital Clinical Management System (NoSQL Architecture)
+**Project:** Hospital Management System (MongoDB Backend)  
+**Core Purpose:** Comprehensive verification of cross-collection operations, CRUD workflows, `$lookup` joins across 5 clinical entities, and multi-stage aggregation analytics.  
+**Tech Stack:** Python 3.12+ | MongoDB 9.0 / PyMongo | `pandas`, `tabulate`, `seaborn`, `matplotlib`
 
 ---
 
@@ -94,7 +94,7 @@ Result of pipeline joining `appointments` $\rightarrow$ `doctors` $\rightarrow$ 
 
 ---
 
-## 4. Evaluator Quick Q&A (Viva Summary)
+## 4. Core Technical Decisions & Architecture FAQs
 
 - **Q1: How do you model relationships like Foreign Keys in MongoDB?**  
   *Answer:* Through **Document Referencing**. A document stores the identifier of another document (e.g. `appointments.doctor_id = "DOC-101"`). At query time, the `$lookup` aggregation stage joins the collections similar to an SQL `LEFT JOIN`.
@@ -106,5 +106,4 @@ Result of pipeline joining `appointments` $\rightarrow$ `doctors` $\rightarrow$ 
   *Answer:* Aggregated MongoDB healthcare collections are transformed into Pandas DataFrames and visualized using Matplotlib and Seaborn (department revenue charts, patient age histograms by gender, and executive dashboards).
 
 ---
-**Verified & Tested by:** Student  
-**System Status:** Operational | MongoDB Connected | 100% Tests Passing
+**Verification Status:** Operational | MongoDB Connected | 100% Tests Passing

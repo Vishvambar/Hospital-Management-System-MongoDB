@@ -1,5 +1,5 @@
 """
-Verification Suite for Task 4: Hospital Management System (MongoDB Backend).
+Verification Suite: Hospital Clinical Management System (MongoDB Backend).
 Tests full CRUD across Departments, Doctors, Patients, Appointments, and Medical Reports,
 demonstrating relational-like associations and $lookup joins.
 """
